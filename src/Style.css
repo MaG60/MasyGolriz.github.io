@@ -1,0 +1,25 @@
+/* src/styles.css */  
+:root {  
+    --bg: #0b1e3c;  
+    --surface: #0f2540;  
+    --text: #eaf2ff;  
+    --muted: #a9b8d9;  
+    --accent: #4aa3ff;  
+    --radius: 12px;  
+    --shadow: 0 8px 24px rgba(0,0,0,.25);  
+    --font: 'Roboto', system-ui, -apple-system, "Segoe UI", Roboto;  
+  }  
+  
+  * { box-sizing: border-box; }  
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--font); }  
+  
+  /* Minimal, clean layout */  
+  .app { max-width: 1100px; margin: 0 auto; padding: 1rem; }  
+  .header, header
+    {   
+     align-items: center;
+    }  
+  .card {  
+    background: #0f2540;  
+    border-radius: var(--radius);
+}
