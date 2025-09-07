@@ -1,6 +1,8 @@
 import React from 'react';  
-import { projects } from './data/projects';  
-import ProjectCard from './components/ProjectCard';  
+import './Style.css'
+//import projects from './data/projects';
+// import { projects } from './data/projects';  
+//import ProjectCard from './components/ProjectCard';  
 
 export default function App() {  
   return (  
@@ -8,7 +10,7 @@ export default function App() {
       <header className="site-header" aria-label="Site header">  
         <div className="wrap">  
           <div className="brand" aria-label="Site name">Masy Golriz</div>  
-          <nav aria-label="Main navigation">  
+          <nav className="nav" aria-label="Main navigation">  
             <a href="#about">About</a>  
             <a href="#experience">Experience</a>  
             <a href="#projects">Projects</a>  
