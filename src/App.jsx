@@ -21,18 +21,18 @@ export default function App() {
         </div>  
       </header>  
 
-      <section id="home" className="hero wrap" aria-label="Home">  
+      <section id="home" className="card" aria-label="Home">  
         <h1>Hi, I’m Masy Golriz — Back-end Developer</h1>  
         <p>A decade-long backend developer focused on .NET technologies, REST APIs, and SQL Server. I design scalable, maintainable enterprise solutions using clean architecture and SOLID principles.</p>  
         <a className="cta" href="#projects">View Projects</a>  
       </section>  
 
-      <section id="about" className="wrap" aria-label="About me">  
+      <section id="about" className="card" aria-label="About me">  
         <h2>About</h2>  
-        <p>Education: B.Sc. in Software Engineering. Languages: English (proficient), French (beginner), Farsi (native).</p>  
+        <p >Education: B.Sc. in Software Engineering. Languages: English (proficient), French (beginner), Farsi (native).</p>  
       </section>  
 
-      <section id="experience" className="wrap" aria-label="Experience">  
+      <section id="experience"className="card" aria-label="Experience">  
         <h2>Experience</h2>  
         <ul>  
           <li><strong>Back-end Developer</strong> 

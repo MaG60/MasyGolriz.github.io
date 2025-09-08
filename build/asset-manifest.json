@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MasyGolriz.github.io/static/css/main.485f7f4a.css",
-    "main.js": "/MasyGolriz.github.io/static/js/main.9855ac9e.js",
+    "main.css": "/MasyGolriz.github.io/static/css/main.11809905.css",
+    "main.js": "/MasyGolriz.github.io/static/js/main.fbf730b7.js",
     "index.html": "/MasyGolriz.github.io/index.html",
-    "main.485f7f4a.css.map": "/MasyGolriz.github.io/static/css/main.485f7f4a.css.map",
-    "main.9855ac9e.js.map": "/MasyGolriz.github.io/static/js/main.9855ac9e.js.map"
+    "main.11809905.css.map": "/MasyGolriz.github.io/static/css/main.11809905.css.map",
+    "main.fbf730b7.js.map": "/MasyGolriz.github.io/static/js/main.fbf730b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.485f7f4a.css",
-    "static/js/main.9855ac9e.js"
+    "static/css/main.11809905.css",
+    "static/js/main.fbf730b7.js"
   ]
 }
