@@ -1,23 +1,28 @@
 import React from 'react';  
-import './Style.css'
-//import projects from './data/projects';
-// import { projects } from './data/projects';  
-//import ProjectCard from './components/ProjectCard';  
+import './Style.css';
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
+
+
 
 export default function App() {  
   return (  
     <div className="app">  
       <header className="site-header" aria-label="Site header">  
         <div className="wrap">  
-          <div className="brand" aria-label="Site name">Masy Golriz</div>  
-          <nav className="nav" aria-label="Main navigation">  
+         {/* <div className="brand" aria-label="Site name">Masy Golriz</div>  
+           <nav className="navbar" aria-label="Main navigation">  
             <a href="#about">About</a>  
             <a href="#experience">Experience</a>  
             <a href="#projects">Projects</a>  
             <a href="#skills">Skills</a>  
             <a href="#education">Education</a>  
             <a href="#contact">Contact</a>  
-          </nav>  
+          </nav>   */}
+           <NavBar />
+           <main>
+           <Hero />
+          </main>
         </div>  
       </header>  
 
