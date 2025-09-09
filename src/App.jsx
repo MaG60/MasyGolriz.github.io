@@ -26,24 +26,38 @@ export default function App() {
         </div>  
       </header>  
 
-      <section id="home" className="card" aria-label="Home">  
+      {/* <section id="home" className="card" aria-label="Home">  
         <h1>Hi, I’m Masy Golriz — Back-end Developer</h1>  
         <p>A decade-long backend developer focused on .NET technologies, REST APIs, and SQL Server. I design scalable, maintainable enterprise solutions using clean architecture and SOLID principles.</p>  
-        <a className="cta" href="#projects">View Projects</a>  
-      </section>  
+      <a className="cta" href="#projects">View Projects</a>   
+      </section>   */}
 
-      <section id="about" className="card" aria-label="About me">  
-        <h2>About</h2>  
-        <p >Education: B.Sc. in Software Engineering. Languages: English (proficient), French (beginner), Farsi (native).</p>  
-      </section>  
-
-      <section id="experience"className="card" aria-label="Experience">  
-        <h2>Experience</h2>  
+<section id="projects"className="card" aria-label="projects">  
+        <h2>Projects</h2>  
         <ul>  
-          <li><strong>Back-end Developer</strong> 
-          — ~10 years in enterprise software for Iranian tech companies. Focus: C#, .NET Core, REST APIs, T-SQL, Agile, SOL
-        </li></ul>
+          <li><strong>Tax API</strong>  </li>
+          <li><strong>Sample project1</strong>  </li>
+          <li><strong>Sample project2</strong>  </li>
+          <li><strong>Sample project3</strong>  </li>
+       
+        </ul>
       </section>
+       
+     
+      <section id="about" className="card" aria-label="About me">  
+        <h2>About Me</h2>  
+        <p > 10 years in enterprise software for Iranian tech companies. 
+          Focus: C#, .NET Core, REST APIs, T-SQL, Agile, Microsoft Azure.
+          Education: B.Sc. in Software Engineering. 
+          Languages: English (proficient), French (beginner), Farsi (native).
+        </p>  
+      </section>  
+
+     
+      <section id="contact" className="card" aria-label="Contact me">  
+        <h2>Contact Me</h2>  
+        <p> Email: masy.golriz@gmail.com</p>  
+      </section> 
       </div>
   )}  
 

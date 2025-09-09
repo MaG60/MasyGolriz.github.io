@@ -28,7 +28,7 @@ export default function Hero() {
         <div style={{ flex: 1, minHeight: 320, display: 'grid', placeItems: 'center' }}>
           {/* Simple neon-glow card as illustration placeholder; replace with SVG/PNG later */}
           <div
-            aria-label="Hero illustration"
+            aria-label="Software engineering"
             style={{
               width: '100%', maxWidth: 420, height: 320, borderRadius: 20,
               background: 'radial-gradient(circle at 30% 20%, rgba(124,92,255,.25), transparent 40%),' +
@@ -76,6 +76,10 @@ export default function Hero() {
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#6ef3ff"/>
       <stop offset="100%" stop-color="#4d9eff"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop stopColor="#7c5cff" stopOpacity="0.9" />
+                  <stop offset="1" stopColor="#22d3ee" stopOpacity="0.9" />
     </linearGradient>
   </defs>
 
@@ -189,7 +193,7 @@ export default function Hero() {
 
 
             <span style={{ zIndex: 1, color: '#fff', fontFamily: 'var(--font-heading)', fontWeight: 600 }}>
-              Hero illustration
+             Software engineering
             </span>
           </div>
         </div>
