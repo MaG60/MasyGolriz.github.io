@@ -85,5 +85,20 @@ a { color: var(--primary); text-decoration: none; }
 .btn { padding: 12px 20px; border-radius: 999px; border: 0; cursor: pointer; font-weight: 600; }
 .btn-primary { background: var(--primary); color: white; }
 .btn-secondary { background: transparent; color: white; border: 1px solid rgba(255,255,255,.25); }
+/* Container that keeps two icons together with horizontal spacing */
+.icon-pair {
+  display: inline-flex;       /* keep icons on one line next to each other */
+  align-items: center;          /* vertical centering if icons vary in height */
+  gap: 8px;                    /* horizontal space between icons (adjust as needed) */
+  line-height: 0;              /* prevents extra space from line height in some browsers */
+  vertical-align: middle;      /* align nicely with surrounding text if used inline */
+}
 
+/* Optional: consistent icon sizing and baseline alignment */
+.icon {
+  width: 2em;                   /* scalable size relative to font size */
+  height: 2em;
+  display: inline-block;
+  vertical-align: middle;
+}
 footer { padding: 40px 0; text-align: center; color: var(--muted); }
