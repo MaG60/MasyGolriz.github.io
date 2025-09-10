@@ -1,5 +1,5 @@
 import React from 'react';
-
+import heroimage from '../assets/Candidate.jpg'; 
 export default function Hero() {
   return (
     <section id="home" className="hero">
@@ -53,7 +53,7 @@ export default function Hero() {
               <path d="M20,260 C120,180 240,180 400,80" stroke="url(#lineGrad)" strokeWidth="2" fill="none" opacity="0.8" />
               <path d="M20,280 C140,200 260,160 400,100" stroke="url(#lineGrad)" strokeWidth="2" fill="none" opacity="0.5" />
             </svg> */}
- <svg
+ {/* <svg
   viewBox="0 0 900 600"
   width="100%"
   height="auto"
@@ -188,9 +188,9 @@ export default function Hero() {
     <line x1="450" y1="300" x2="364" y2="250"/>
   </g>
 
-</svg> 
+</svg>  */}
 
-
+          <img src={heroimage} style={{width: '100%'}}/> 
 
             <span style={{ zIndex: 1, color: '#fff', fontFamily: 'var(--font-heading)', fontWeight: 600 }}>
              Software engineering

@@ -85,7 +85,7 @@ a { color: var(--primary); text-decoration: none; }
 .btn { padding: 12px 20px; border-radius: 999px; border: 0; cursor: pointer; font-weight: 600; }
 .btn-primary { background: var(--primary); color: white; }
 .btn-secondary { background: transparent; color: white; border: 1px solid rgba(255,255,255,.25); }
-/* Container that keeps two icons together with horizontal spacing */
+/*Container that keeps two icons together with horizontal spacing*/
 .icon-pair {
   display: inline-flex;       /* keep icons on one line next to each other */
   align-items: center;          /* vertical centering if icons vary in height */
@@ -96,8 +96,8 @@ a { color: var(--primary); text-decoration: none; }
 
 /* Optional: consistent icon sizing and baseline alignment */
 .icon {
-  width: 2em;                   /* scalable size relative to font size */
-  height: 2em;
+  /*width: 24px;                    scalable size relative to font size */
+  /*height: 24px;*/
   display: inline-block;
   vertical-align: middle;
 }
